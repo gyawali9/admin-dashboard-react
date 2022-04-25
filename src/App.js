@@ -1,9 +1,14 @@
 import React from 'react'
 import './App.css'
+import Sidebar from './components/Sidebar/Sidebar'
 
 const App = () => {
   return (
-    <div className="App">App</div>
+    <div className="app">
+      <div className="appGlass">
+        <Sidebar/>
+      </div>
+    </div>
   )
 }
 
